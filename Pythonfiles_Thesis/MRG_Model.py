@@ -173,22 +173,3 @@ def updateMRGaxon(par):#, verbose):
 def quitNeuron():
     h.quit()
 
-# Resets spike counter and voltages in recorder
-# def resetRecorder(rec, verbose=False):
-#     '''
-#     Clears hoc vectors in spiketimes and voltage and resets apcounts.
-#     '''
-#     for k, o in rec['spiketimes'].iteritems():
-#         if verbose:
-#             print('Reseting ' + k)
-#         o.clear()
-#     if 'voltage' in rec.keys():
-#         for k, o in rec['voltage'].iteritems():
-#             if verbose:
-#                 print('Reseting ' + k)
-#             o.clear()
-#     for k, o in rec['apcount'].iteritems():
-#         if verbose:
-#             print('Setting apcount ' + k + ' to zero.')
-#         o.n = 0
-
